@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "hermes-team",
+  "displayName": "Hermes Team",
+  "version": "0.1.0",
+  "description": "Spawn a parallel team of hermes coding agents in isolated git worktrees to tackle a TASKS.md file.",
+  "author": {
+    "name": "nithusha21",
+    "email": "nithesh2108@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": ["hermes", "agents", "parallel", "worktree", "orchestration"]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "hermes-skills",
+  "description": "Skills for orchestrating teams of hermes coding agents.",
+  "owner": {
+    "name": "nithusha21",
+    "email": "nithesh2108@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "hermes-team",
+      "source": "./plugins/hermes-team",
+      "description": "Spawn a parallel team of hermes coding agents in isolated git worktrees to tackle a TASKS.md file.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "keywords": ["hermes", "agents", "parallel", "worktree", "orchestration"]
+    }
+  ]
+}
